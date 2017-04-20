@@ -4,8 +4,9 @@ import AkkaDependency._
 import akka.ValidatePullRequest._
 
 inThisBuild(Def.settings(
-  organization := "com.typesafe.akka",
+  organization := "com.bloke",
   organizationName := "Lightbend",
+  version in ThisBuild := "1.1",
   organizationHomepage := Some(url("https://www.lightbend.com")),
   homepage := Some(url("http://akka.io")),
   apiURL := {
