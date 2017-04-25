@@ -4,7 +4,7 @@ import AkkaDependency._
 import akka.ValidatePullRequest._
 
 inThisBuild(Def.settings(
-  organization := "com.bloke",
+  organization := "com.blokey",
   organizationName := "Lightbend",
   version in ThisBuild := "1.1",
   organizationHomepage := Some(url("https://www.lightbend.com")),
